@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Performs a reduction from Vertex Cover to Hamiltonian Cycle",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc"
   },
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/juanrguezsu7/VC-HC-Reduction#readme",
   "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   }
 }

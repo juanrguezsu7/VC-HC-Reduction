@@ -7,3 +7,9 @@ This repository contains the code to perform a reduction from the Vertex Cover p
 - [**Sergio Pérez Lozano**](https://github.com/SergioPerezLoza)
 ## License
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
+## Build
+To build the project, run the following command:
+```bash
+npm run build
+```
+A `index.js` file will be generated in the `dist` folder.

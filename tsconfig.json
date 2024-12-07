@@ -1,19 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es2022",
-    "module": "ES2022",
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
     "allowJs": true,
     "rootDir": "./",
-    "outDir": "./",
-    // "mapRoot": "./map",
-    "declarationDir": "./dist",
-    // "sourceRoot": "./src",
-    "declaration": true,
+    "outDir": "./dist",
     "strict": true,
     "noImplicitAny": true,
     "forceConsistentCasingInFileNames": true,
-    "sourceMap": false,
-    "moduleResolution": "node",
   },
   "include": [
     "src"
