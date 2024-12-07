@@ -131,3 +131,6 @@ dist
 
 # Package Lock
 package-lock.json
+
+# JS Files
+*.js
