@@ -1,0 +1,19 @@
+{
+  "name": "p4-cc-vc-hc-reduction",
+  "version": "1.0.0",
+  "description": "Performs a reduction from Vertex Cover to Hamiltonian Cycle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanrguezsu7/VC-HC-Reduction.git"
+  },
+  "author": "Juan Rodríguez Suárez & Álvaro Fontenla León",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanrguezsu7/VC-HC-Reduction/issues"
+  },
+  "homepage": "https://github.com/juanrguezsu7/VC-HC-Reduction#readme"
+}
