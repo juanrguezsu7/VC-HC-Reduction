@@ -7,3 +7,29 @@ This repository contains the code to perform a reduction from the Vertex Cover p
 - [**Sergio Pérez Lozano**](https://github.com/SergioPerezLoza)
 ## License
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
+## Build and Run
+### Online
+At the moment, the project is deployed in [Vercel](https://vc-hc-reduction.vercel.app).
+### Local
+To build and run the project, you need to have Node.js installed. You can download it [here](https://nodejs.org/).
+1. Clone the repository:
+```bash
+git clone git@github.com:juanrguezsu7/VC-HC-Reduction.git
+```
+2. Install the dependencies:
+```bash
+npm install
+```
+3. Build the project:
+```bash
+npm run build
+```
+4. Run the project:
+```bash
+npm run dev
+```
+5. Open your browser and go to the URL specified in the console.
+## Usage
+1. Enter the constant of the Vertex Cover problem.
+2. Add the nodes and edges of the graph.
+3. Click on `Perform Reduction` to reduce the Vertex Cover problem to the Hamiltonian Cycle problem.
